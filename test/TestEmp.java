@@ -1,4 +1,4 @@
-class TestEmp
+class TestEmployee
 {
 
   public static void main(String[] args)
@@ -6,11 +6,11 @@ class TestEmp
   
     //  Reference variable emp* refer to separate objects of class Emp.
   
-    Emp emp1 = new Emp();
-    Emp emp2 = new Emp();
-    Emp emp3 = new Emp();
-    Emp emp4 = new Emp();
-    Emp emp5 = new Emp();
+    Employee emp1 = new Employee();
+    Employee emp2 = new Employee();
+    Employee emp3 = new Employee();
+    Employee emp4 = new Employee();
+    Employee emp5 = new Employee();
     
     //  Variable bankVault of variables emp* are assigned.
     
@@ -26,6 +26,6 @@ class TestEmp
     System.out.println(emp4.bankVault);
     System.out.println(emp5.bankVault);
     
-    System.out.println(Emp.bankVault); // This will print 50.
+    System.out.println(Employee.bankVault); // This will print 50.
     
 }
