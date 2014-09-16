@@ -8,6 +8,8 @@
 
 class Employee
 {
+	int age;
+	
 	String name;
 	
 	public static final int MIN_AGE = 18;
