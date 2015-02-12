@@ -39,4 +39,19 @@ class Employee
 		
 	}
 	
+	Employee()
+	{
+		age = 22;
+	}
+	
+	public void setName(String val)
+	{
+		name = val;
+	}
+	
+	public void printEmp()
+	{
+		System.ou.println("name: " + name + "age: " age);
+	}
+	
 }
